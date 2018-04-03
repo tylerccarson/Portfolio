@@ -1,0 +1,25 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+ul {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  list-style-type: none;
+  margin-right: 5%
+}
+
+li {
+  float: right;
+  padding: 2.5px;
+  margin: 5px;
+}
+
+.bg {
+  background-image: url("img/road.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
