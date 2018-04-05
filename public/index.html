@@ -12,30 +12,65 @@
 
   <!-- Styles -->
   <link rel="stylesheet" type="text/css" href="style.css">
+ 
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 
 </head>
 <body>
 
-  <div class="bg">
+  <div class="sticky">
     <nav>
       <ul>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#about">About</a></li>
-        <li>to-do: turn this into a sticky header</li>
       </ul>
     </nav>
   </div>
 
-  <div id="about"></div>
+  <div class="bg">
+  </div>
 
-    <h2>Tyler Carson</h2>
-    <h4>Node.js and UI developer</h4>
-    <p>need a mock up to get a better idea of how I'd like this to look</p>
-    <p>this section will include a personal photo, education, contact info, location</p>
-    <p>also include links to social profiles (LinkedIn, Github, Facebook)</p>
-    <p>ability to download resume</p>
-    <p>short bio</p>
+  <div id="about" class="row">
+
+    <div class="column left">
+      <img src="img/profile.jpg">
+    </div>
+
+    <div class="column right">
+      <h2>Tyler Carson</h2>
+      <h4>Node.js and UI developer</h4>
+      <hr>
+      <table>
+        <tr>
+          <td class="bold">Education: </td>
+          <td>BA, Anthropology, UC Berkeley</td>
+        </tr>
+        <tr>
+          <td class="bold">Location: </td>
+          <td>San Francisco Bay Area</td>
+        </tr>
+        <tr>
+          <td class="bold">E-mail: </td>
+          <td>tyler.c.carson@gmail.com</td>
+        </tr>
+        <tr>
+          <td class="bold">Phone: </td>
+          <td>+1 530 564 2608</td>
+        </tr>
+      </table>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/tyler-carson-19702b39/"><i class="fab fa-linkedin-in fa-lg"></i></a>
+        <a href="https://github.com/tylerccarson"><i class="fab fa-github fa-lg"></i></a>
+        <a href="https://www.facebook.com/tyler.carson.1257"><i class="fab fa-facebook-f fa-lg"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <p>ability to download resume</p>
+  <p>short bio</p>
 
   <div id="skills">
     <p>this section will pop up when you scroll to it</p>
