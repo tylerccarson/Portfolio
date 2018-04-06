@@ -2,7 +2,6 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Arial;
-  background-color: #27292e
 }
 
 li a {
@@ -87,6 +86,22 @@ button {
   background-size: cover;
 }
 
+.bg-2 {
+  background-image: url("img/karsts.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.bg-3 {
+  background-image: url("img/jacaranda.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
 .column {
   float: left;
 }
@@ -131,10 +146,175 @@ button {
   margin-top: 12.5%;
 }
 
-.portfolio {
-
-}
-
 #about {
   padding: 2% 5% 0%;
+}
+
+#experience {
+  width: 70%;
+  max-width: 750px;
+  margin-top: 10%;
+}
+
+.timeline .timeline-bar {
+  content: '';
+  width: 4px;
+  margin-left: -2px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  height: 100%;
+  background-color: dodgerblue;
+}
+
+.timeline-box {
+  width: 50%;
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.timeline .timeline-inner {
+  position: relative;
+}
+
+.timeline-box {
+  width: 50%;
+  color: whitesmoke;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.timeline-box:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-box h3 {
+  color: #whitesmoke;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.timeline-box h4 {
+  color: whitesmoke;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.1;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.timeline-box .date {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 15px;
+  color: dodgerblue;
+}
+
+.timeline-box-inner {
+  padding: 20px 5%;
+  position: relative;
+  border-width: 5px 0 0 0;
+  border-style: solid;
+  border-color: dodgerblue;
+  background-color: #404040;
+}
+
+.timeline-box .dot {
+  background-color: dodgerblue;
+}
+
+.timeline-box-left .dot,
+.timeline-box-right .dot {
+  top: 80px;
+  width: 8px;
+  height: 8px;
+  display: block;
+  position: absolute;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.timeline-box-left .arrow,
+.timeline-box-right .arrow {
+  top: 60px;
+  width: 12px;
+  height: 41px;
+  display: block;
+  position: absolute;
+  background-image: url(img/arrows.png);
+  background-repeat: no-repeat;
+}
+
+.timeline-box-left .arrow:before,
+.timeline-box-right .arrow:before {
+  width: 0;
+  height: 0;
+  content: '';
+  display: block;
+}
+
+.timeline-box-left {
+  float: left;
+  clear: left;
+}
+
+.timeline-box-left .timeline-box-inner {
+  margin-right: 35px;
+}
+
+.timeline-box-left .timeline-box-inner .arrow {
+  right: -12px;
+  background-position: -18px 0;
+}
+
+.timeline-box-left .timeline-box-inner .arrow:before {
+  margin-right: 2px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 10px solid #fff;
+  border-left-color: #404040; 
+}
+
+.timeline-box-left .dot {
+  right: 0px;
+  margin-right: -4px;
+}
+
+.timeline-box-right {
+  float: right;
+  clear: right;
+}
+
+.timeline-box-right .timeline-box-inner {
+  margin-left: 35px;
+}
+
+.timeline-box-right .timeline-box-inner .arrow {
+  left: -12px;
+  background-position: 0 0;
+}
+
+.timeline-box-right .timeline-box-inner .arrow:before {
+  margin-left: 2px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 10px solid #fff;
+  border-right-color: #404040;
+}
+
+.timeline-box-right .dot {
+  left: 0px;
+  margin-left: -4px;
 }
