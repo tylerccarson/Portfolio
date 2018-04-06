@@ -4,12 +4,10 @@
   "description": "Tyler Carson's Portfolio and Resume",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tyler Carson",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3"
   }
 }
